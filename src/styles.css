@@ -1,0 +1,59 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container,
+.content-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  background-position: center;
+  background-size: cover;
+  background-image: url("./img/founders-forge-bg.jpg");
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgba(12, 10, 56, 0.8);
+}
+
+.content-wrapper header {
+  text-align: right;
+}
+.content-wrapper header img {
+  margin: 20px 20px 20px auto;
+  text-align: right;
+}
+.content-wrapper .main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-wrapper .main img {
+  min-width: 280px;
+  max-width: 380px;
+  width: 90%;
+  align-self: center;
+}
+
+.content-wrapper .tagline {
+  width: 90%;
+  margin: 32px auto;
+}
+
+.content-wrapper .coming-soon {
+  margin-bottom: 40px;
+  font-size: 18;
+  font-weight: 700;
+}
